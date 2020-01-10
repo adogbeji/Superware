@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+button span {
+  color: #FF0000;
+  font-size: 25px;
+}
+
+hr {
+  border-style: none;  /* Removes the default <hr> border-style and width */
+  border-top-style: solid;
+  border-width: 20px;
+  border-color: blue;
+  width: 40%;  /* This makes the <hr> width dynamic */
+}
+
+/* Navigation Bar */
+
+.top-container {
+  width: 100vw;
+  height: 25vh;
+  background-color: #292121;
+}
+
+.navbar {
+  padding: 3% 7%;  /* Should I change left- and right-padding to 7% ?? */
+  background-color: #292121;
+}
+
+.navbar-brand {
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #FF0000;
+}
+
+.navbar-brand:hover {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #FF0000;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+}
+
+.dropdown-menu {
+  background-color: #292121;
+}
+
+.dropdown-item {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: yellow;
+}
+
+.dropdown-item:hover {
+  color: #000000;
+}
+
+/* Main Contents */
+
+.middle-container {
+  width: 100vw;
+  padding-bottom: 30px;
+  display: inline-block;
+  background-color: #FC7FB2;
+}
+
+.text-container-1 {
+  width: 85%;
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  /* background-color: #FF0000; */
+}
+
+.text-box-1 {
+  text-align: center;
+  display: inline-block;
+}
+
+.text-1 {
+  font-family: "Arial Black", Arial, Tahoma, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #000000;
+}
+
+.image-container-1 {
+  width: 50%;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: grey; */
+}
+
+.img-box {
+  width: 100%;
+}
+
+.img-box .laptop {
+  max-width: 100%;
+  height: auto;
+}
+
+.hr-container {
+  margin-top: 80px;
+}
+
+.text-container-2 {
+  width: 60%;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  /* background-color: #FF0000; */
+}
+
+.text-box-2 {
+  text-align: center;
+  display: inline-block;
+}
+
+.text-2 {
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+}
+
+.img-container-2 {
+  width: 35%;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
+
+.img-box .software {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container-3 {
+  width: 50%;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  /* background-color: #FF0000; */
+}
+
+.text-box-3 {
+  text-align: center;
+  display: inline-block;
+}
+
+.text-3 {
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #000000;
+}
+
+/* Footer Section */
+
+.bottom-container {
+  width: 100vw;
+  background-color: #000000;
+}
+
+.legal-pages {
+  color: blue;
+}
+
+.legal-pages:hover {
+  color: #FF0000;
+}
+
+.social-icon-1 {
+  color: blue;
+}
+
+.social-icon-2 {
+  color: #FFFFFF;
+}
+
+.social-icon-3 {
+  color: yellow;
+}
+
+.social-icon-4 {
+  color: blue;
+}
+
+.social-icon-5 {
+  color: #FF0000;
+}
